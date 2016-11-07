@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="bjm_master_MasterPage"  %>
+<%@ Import Namespace="CMS.DataEngine" %>
+<%@ Import Namespace="CMS.SiteProvider" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" <%=XmlNamespace%>>
+<head id="Head1" runat="server">
+    <title id="Title1" runat="server">My site</title>
+    <asp:literal runat="server" id="ltlTags" enableviewstate="false" />
+</head>
+ 
+<body class="<%=BodyClass%>" <%=BodyParameters%>>
+    <form id="form1" runat="server">
+        <asp:PlaceHolder runat="server" ID="plcManagers">
+            <ajaxToolkit:ToolkitScriptManager ID="manScript" runat="server" EnableViewState="false" ScriptMode="Release" />
+            <cms:CMSPortalManager ID="CMSPortalManager1" runat="server" EnableViewState="false" />
+        </asp:PlaceHolder>
+ 
+       
+ 
+        <asp:ContentPlaceHolder ID="plcMain" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

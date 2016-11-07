@@ -1,0 +1,15 @@
+﻿正在安装程序集“Z:\work\weixincms\Kentico9\CMS\bin\HealthMonitoringService.exe”。
+受影响的参数是:
+   assemblypath = Z:\work\weixincms\Kentico9\CMS\bin\HealthMonitoringService.exe
+   logtoconsole = true
+   logfile = Z:\work\weixincms\Kentico9\CMS\bin\HealthMonitoringService.InstallLog
+   webpath = Z:\work\weixincms\Kentico9\CMS
+正在安装服务 KenticoCMSHealthMonitor(bjmweixinwebapi.com_Kentico9)...
+已成功安装服务 KenticoCMSHealthMonitor(bjmweixinwebapi.com_Kentico9)。
+正在日志 Application 中创建 EventLog 源 KenticoCMSHealthMonitor(bjmweixinwebapi.com_Kentico9)...
+正在提交程序集“Z:\work\weixincms\Kentico9\CMS\bin\HealthMonitoringService.exe”。
+受影响的参数是:
+   assemblypath = Z:\work\weixincms\Kentico9\CMS\bin\HealthMonitoringService.exe
+   logtoconsole = true
+   logfile = Z:\work\weixincms\Kentico9\CMS\bin\HealthMonitoringService.InstallLog
+   webpath = Z:\work\weixincms\Kentico9\CMS
